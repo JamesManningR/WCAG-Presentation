@@ -141,12 +141,6 @@ WCAG 2.1
 
 ---
 
-# Accessible Experience Matters
-
-<!-- add video of the scrolling -->
-
----
-
 # Which page is better for accessibility?
 
 https://broken-workshop.dequelabs.com/
@@ -161,11 +155,30 @@ https://demo.cardan.com/english/
 
 <!-- Add an example of a good website for a11y -->
 
+
 ---
 
-# Ways of testing
+# Testing
 
-<!-- Figma, pipelines, extensions, storybook, screen readers, zoom testing -->
+<!-- Figma, pipelines, extensions, storybook -->
+
+<!-- Talk about the automated testing, finish by saying that it's not enough -->
+
+---
+
+# But Automated testing doesn't catch everything
+
+<!-- add video of the scrolling -->
+<!-- add video of the app -->
+<!-- add video of the toast -->
+
+---
+
+# How do I manually test
+
+<!-- Manual testing can be different for developers and designers. -->
+<!-- Of course the best way to test is to use the tools that people use -->
+<!-- For example, screen readers, just using the keyboard, zoom testing -->
 
 ---
 
@@ -173,7 +186,9 @@ https://demo.cardan.com/english/
 
 ---
 
-# How can I see if it's accessible?
+# How can I see if it's accessible? (as a developer)
+
+<!-- You can see how the HTML links to the a11y tree -->
 
 <div class="grid grid-cols-2 gap-4">
 
@@ -204,6 +219,8 @@ https://demo.cardan.com/english/
   </h2>
 </div>
 ```
+
+<!-- Something neet is that the `pug` language looks quite a lot like the a11y tree -->
 
 ```pug {*|1|2-4|3|4|5-6|5|6|6|*}{at:12}
 .banner-text
@@ -247,6 +264,8 @@ layout: two-cols-header
 <template #1>
 
 <v-clicks at="1">
+
+<!-- These are just side effects that we get for free when we care about a11y -->
 
 ## Added benefits
 - Semantic HTML is easier to read / parse
@@ -407,7 +426,6 @@ It gives you functionality for free
 
 ---
 
-
 # But we use components!
 
 ````md magic-move {at: 1}
@@ -467,17 +485,31 @@ return (
 );
 ```
 ````
-
+<!-- This is when you have the ability to use the html components -->
 
 ---
 
 # But the component I want to make isn't there...
 
-## Aria
+<!-- In that case, you can use Aria roles -->
+
+## Aria Roles
+
+
+<!-- If you can't do it with aria roles, then you have to get more creative -->
+
+---
+
+## Aria Attributes
 
 Accessible Rich Internet Applications
 
 <!-- https://www.w3.org/TR/using-aria/ -->
+
+
+---
+
+# Recap
 
 
 ---
