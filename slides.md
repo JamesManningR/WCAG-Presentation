@@ -187,6 +187,7 @@ WCAG 2.1
 
 ### Operable
 
+<!-- You can literally see every criteria here -->
 
 1. Keyboard Accessible
     1. Keyboard
