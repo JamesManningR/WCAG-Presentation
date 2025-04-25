@@ -141,12 +141,6 @@ WCAG 2.1
 
 ---
 
-# Ways of testing
-
-<!-- Figma, pipelines, extensions, storybook, screen readers, zoom testing -->
-
----
-
 # Accessible Experience Matters
 
 <!-- add video of the scrolling -->
@@ -169,7 +163,76 @@ https://demo.cardan.com/english/
 
 ---
 
-# How do I get it right?
+# Ways of testing
+
+<!-- Figma, pipelines, extensions, storybook, screen readers, zoom testing -->
+
+---
+
+# ============= LUNCH =========== 🍤
+
+---
+
+# How can I see if it's accessible?
+
+<div class="grid grid-cols-2 gap-4">
+
+```yml {*|1|2|3|4|5|6|7|8|*|*|1|2|3|4|5|6|7|8|*}{at:1}
+- generic
+  - heading "INACCESSIBLE WEB DESIGN"
+  - Staticlext "TNACCESSTRIE"
+  - StaticText "WEB DESIGN"
+  - heading "Exclude We'll just do it!"
+    - StaticText "Exclude"
+    - strong ""
+      - StaticText "We'll just do it!"
+```
+
+<div class="flex flex-col gap-2">
+
+````md magic-move
+
+```html {*|1,10|2-5|3|4|6-9|7|8|8|*}{at:1}
+<div class="banner-text">
+  <h1 class=" poppins-extrabold">
+    <span>Inaccessible</span> 
+    Web Design
+  </h1>
+  <h2>
+    Exclude
+    <strong>We'll just do it!</strong>
+  </h2>
+</div>
+```
+
+```pug {*|1|2-4|3|4|5-6|5|6|6|*}{at:12}
+.banner-text
+  h1.poppins-extrabold
+    span Inaccessible
+    | Web Design
+  h2 Exclude
+    strong We'll just do it!
+```
+
+````
+
+</div>
+
+</div>
+
+---
+
+# How do I make it accessible?
+
+The route to easier accessibility
+
+<v-clicks>
+
+1. Use Native HTML (semantic HTML)
+2. Use Aria roles
+3. Use Aria attributes
+
+</v-clicks>
 
 ---
 layout: two-cols-header
@@ -185,6 +248,7 @@ layout: two-cols-header
 
 <v-clicks at="1">
 
+## Added benefits
 - Semantic HTML is easier to read / parse
 - Semantic HTML is easier to maintain
 - Semantic HTML is easier to style
@@ -405,7 +469,7 @@ return (
 ````
 
 
---- 
+---
 
 # But the component I want to make isn't there...
 
@@ -417,53 +481,3 @@ Accessible Rich Internet Applications
 
 
 ---
-
-# How can I see if it's accessible?
-
-<div class="grid grid-cols-2 gap-4">
-
-```yml {*|1|2|3|4|5|6|7|8|*|*|1|2|3|4|5|6|7|8|*}{at:1}
-- generic
-  - heading "INACCESSIBLE WEB DESIGN"
-  - Staticlext "TNACCESSTRIE"
-  - StaticText "WEB DESIGN"
-  - heading "Exclude We'll just do it!"
-    - StaticText "Exclude"
-    - strong ""
-      - StaticText "We'll just do it!"
-```
-
-<div class="flex flex-col gap-2">
-
-````md magic-move
-
-```html {*|1,10|2-5|3|4|6-9|7|8|8|*}{at:1}
-<div class="banner-text">
-  <h1 class=" poppins-extrabold">
-    <span>Inaccessible</span> 
-    Web Design
-  </h1>
-  <h2>
-    Exclude
-    <strong>We'll just do it!</strong>
-  </h2>
-</div>
-```
-
-```pug {*|1|2-4|3|4|5-6|5|6|6|*}{at:12}
-.banner-text
-  h1.poppins-extrabold
-    span Inaccessible
-    | Web Design
-  h2 Exclude
-    strong We'll just do it!
-```
-
-````
-
-</div>
-
-</div>
-
----
-
