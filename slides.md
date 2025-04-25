@@ -112,63 +112,46 @@ title: What does A11Y mean?
 
 ---
 
-# What are the guidelines
+# Why are we here?
+
+EAA (European Accessibility Act)
+
+## What are the guidelines
 
 WCAG 2.1
 
-## One layer deeper?
+## What are the requirements?
 
 1. Perceivable
 2. Operable
 3. Understandable
 4. Robust
+
 ---
 
 # What do those mean?
 
 ## Perceivable
-1.1Text Alternatives
-1.1.1Non-text Content
-1.2Time-based Media
-1.2.1Audio-only and Video-only (Prerecorded)
-1.2.2Captions (Prerecorded)
-1.2.3Audio Description or Media Alternative (Prerecorded)
-1.2.4Captions (Live)
-1.2.5Audio Description (Prerecorded)
-1.2.6Sign Language (Prerecorded)
-1.2.7Extended Audio Description (Prerecorded)
-1.2.8Media Alternative (Prerecorded)
-1.2.9Audio-only (Live)
-1.3Adaptable
-1.3.1Info and Relationships
-1.3.2Meaningful Sequence
-1.3.3Sensory Characteristics
-1.3.4Orientation
-1.3.5Identify Input Purpose
-1.3.6Identify Purpose
-1.4Distinguishable
-1.4.1Use of Color
-1.4.2Audio Control
-1.4.3Contrast (Minimum)
-1.4.4Resize Text
-1.4.5Images of Text
-1.4.6Contrast (Enhanced)
-1.4.7Low or No Background Audio
-1.4.8Visual Presentation
-1.4.9Images of Text (No Exception)
-1.4.10Reflow
-1.4.11Non-text Contrast
-1.4.12Text Spacing
-1.4.13Content on Hover or Focus
+
 ## Operable
 
 ## Understandable
 
 ## Robust
 
+---
+
+# Ways of testing
+
+<!-- Figma, pipelines, extensions, storybook, screen readers, zoom testing -->
 
 ---
 
+# Accessible Experience Matters
+
+<!-- add video of the scrolling -->
+
+---
 
 # Which page is better for accessibility?
 
@@ -177,6 +160,16 @@ https://broken-workshop.dequelabs.com/
 -- or --
 
 https://demo.cardan.com/english/
+
+---
+
+# Who gets it right?
+
+<!-- Add an example of a good website for a11y -->
+
+---
+
+# How do I get it right?
 
 ---
 layout: two-cols-header
@@ -414,14 +407,18 @@ return (
 
 --- 
 
-# Aria
+# But the component I want to make isn't there...
+
+## Aria
 
 Accessible Rich Internet Applications
+
+<!-- https://www.w3.org/TR/using-aria/ -->
 
 
 ---
 
-# How do you know?
+# How can I see if it's accessible?
 
 <div class="grid grid-cols-2 gap-4">
 
@@ -469,3 +466,4 @@ Accessible Rich Internet Applications
 </div>
 
 ---
+
