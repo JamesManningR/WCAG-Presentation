@@ -148,24 +148,24 @@ WCAG 2.1
 ### Perceivable
 
 1. Text Alternatives
-  1. Non-text Content
+    1. Non-text Content
 2. Time-based Media
-  1. Audio-only and Video-only (Prerecorded)
-  2. Captions (Prerecorded)
-  3. Audio Description or Media Alternative (Prerecorded)
-  4. Captions (Live)
-  5. Audio Description (Prerecorded)
-  6. Sign Language (Prerecorded)
-  7. Extended Audio Description (Prerecorded)
-  8. Media Alternative (Prerecorded)
-  9. Audio-only (Live)
+    1. Audio-only and Video-only (Prerecorded)
+    2. Captions (Prerecorded)
+    3. Audio Description or Media Alternative (Prerecorded)
+    4. Captions (Live)
+    5. Audio Description (Prerecorded)
+    6. Sign Language (Prerecorded)
+    7. Extended Audio Description (Prerecorded)
+    8. Media Alternative (Prerecorded)
+    9. Audio-only (Live)
 3. Adaptable
-  1. Info and Relationships
-  2. Meaningful Sequence
-  3. Sensory Characteristics
-  4. Orientation
-  5. Identify Input Purpose
-  6. Identify Purpose
+    1. Info and Relationships
+    2. Meaningful Sequence
+    3. Sensory Characteristics
+    4. Orientation
+    5. Identify Input Purpose
+    6. Identify Purpose
 4. Distinguishable
    1. Use of Color
    2. Audio Control
@@ -187,6 +187,47 @@ WCAG 2.1
 
 ### Operable
 
+
+1. Keyboard Accessible
+    1. Keyboard
+    2. No Keyboard Trap
+    3. Keyboard (No Exception)
+    4. Character Key Shortcuts
+2. Enough Time
+    1. Timing Adjustable
+    2. Pause, Stop, Hide
+    3. No Timing
+    4. Interruptions
+    5. Re-authenticating
+    6. Timeouts
+3. Seizures and Physical Reactions
+    1. Three Flashes or Below Threshold
+    2. Three Flashes
+    3. Animation from Interactions
+4. Navigable
+    1. Bypass Blocks
+    2. Page Titled
+    3. Focus Order
+    4. Link Purpose (In Context)
+    5. Multiple Ways
+    6. Headings and Labels
+    7. Focus Visible
+    8. Location
+    9. Link Purpose (Link Only)
+    10. Section Headings
+    11. Focus Not Obscured (Minimum)
+    12. Focus Not Obscured (Enhanced)
+    13. Focus Appearance
+5. Input Modalities
+    1. Pointer Gestures
+    2. Pointer Cancellation
+    3. Label in Name
+    4. Motion Actuation
+    5. Target Size (Enhanced)
+    6. Concurrent Input Mechanisms
+    7. Dragging Movements
+    8. Target Size (Minimum)
+
 </div>
 
 <div>
@@ -194,29 +235,29 @@ WCAG 2.1
 ### Understandable
 
 1. Readable
-  1. Language of Page
-  1. Language of Parts
-  2. Unusual Words
-  3. Abbreviations
-  4. Reading Level
-  5. Pronunciation
-2Predictable
-2.1On Focus
-2.2On Input
-2.3Consistent Navigation
-2.4Consistent Identification
-2.5Change on Request
-2.6Consistent Help
-3Input Assistance
-3.3.1Error Identification
-3.3.2Labels or Instructions
-3.3.3Error Suggestion
-3.3.4Error Prevention (Legal, Financial, Data)
-3.3.5Help
-3.3.6Error Prevention (All)
-3.3.7Redundant Entry
-3.3.8Accessible Authentication (Minimum)
-3.3.9Accessible Authentication (Enhanced)
+    1. Language of Page
+    2. Language of Parts
+    3. Unusual Words
+    4. Abbreviations
+    5. Reading Level
+    6. Pronunciation
+2. Predictable
+    1. On Focus
+    2. On Input
+    3. Consistent Navigation
+    4. Consistent Identification
+    5. Change on Request
+    6. Consistent Help
+3. Input Assistance
+    1. Error Identification
+    2. Labels or Instructions
+    3. Error Suggestion
+    4. Error Prevention (Legal, Financial, Data)
+    5. Help
+    6. Error Prevention (All)
+    7. Redundant Entry
+    8. Accessible Authentication (Minimum)
+    9. Accessible Authentication (Enhanced)
 
 </div>
 
